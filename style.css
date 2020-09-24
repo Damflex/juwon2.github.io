@@ -1,0 +1,169 @@
+body{
+    background-color: azure;
+    margin: 0;
+}
+
+.link-title{
+    text-decoration: none;
+    font-size: 50px;
+    color: #484362;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background: #c5cafb;
+    box-shadow: 0px 10px 12px 7px;
+}
+
+.header{
+    padding: 45px 0 20px 40px;
+}
+
+.menu{
+   background-color: #3b7641;
+    padding: 6px 0px 6px 40px;
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.menu a{
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad pro";
+}
+
+.menu a:hover{
+    color: #ecf2f3;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}
+
+h1{
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Arial Narrow", "Myriad pro"
+}
+
+h2{
+    color: #3b7687;
+    font-size: 50px;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+    
+}
+
+.main a:hover{
+    color: #658768;
+}
+
+#home-image img{
+    width: 100%;
+    
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucifer sans unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #887959;
+    
+}
+
+.seperator{
+    color: #74b9f5;
+    font-size: 11px;
+    
+}
+
+/*about page style*/
+#about-page #home-image img{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+
+ #about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+
+#about-page .description{
+    clear: both;
+    
+}
+
+/*contact page style*/
+
+#contact #form{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 8px 13px 5px;
+    border-radius: 10px;
+}
+
+#contact .page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+ #contact #form input{
+    width: 100px;
+    border-radius: 5px;
+    height: 20px;
+    background: #c2d0d4;   
+}
+
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px;
+    background: #c2d0d5;
+}
+
+#contact #form #submit{
+    height: 30px;
+    background: #15e971
+}
+
+
+
+
+
+
+
+
+
+#unserious img{
+    width: 400px;
+    height: 200px;
+    margin: 50px auto
+}
